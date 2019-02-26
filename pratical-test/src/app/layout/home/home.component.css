@@ -1,0 +1,31 @@
+.button-container {
+    max-width: 250px;
+    margin: auto;
+}
+
+.pull-right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: rgb(238, 238, 238);
+    padding: 2em;
+    border-radius: 4px;
+    margin-bottom: 7px;
+}
+
+p {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100;
+}

@@ -1,0 +1,33 @@
+ 
+    <li >
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">FirstName</th>
+          <th scope="col">LastName</th>
+          <th scope="col">Username</th>
+          <th scope="col">Action</th>
+          <th scope="col"> </th>
+        
+        
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of alluser; let i = index">
+          <th scope="row">{{ i + 1 }}</th>
+          <td>{{ user.firstname }}</td>
+          <td>{{ user.lastname }}</td>
+          <td>{{ user.username }}</td>
+          <td>   <button class="btn btn-sm btn-danger button-container pull-right" (click)="onClickDeleteUser(user.username)">Delete</button></td>
+          <td>   <button class="btn btn-sm btn-primary button-container pull-right" >edict</button></td>
+        </tr>
+      </tbody>
+    </table>
+      </li>
+         
+         
+     
+    
+     
+          
